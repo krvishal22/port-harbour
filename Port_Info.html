@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FORM FOR PORT</title><style> 
+    form{
+  padding-top:100px;
+  text-align: center;
+  font-size:20px;
+  
+ }
+ 
+body{
+  background-image:url("img6.jpg") ;
+  background-size: cover;
+}
+
+
+ div.sep{
+  float:left;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  
+  border:solid rgb(40, 153, 168) round 2px; 
+  margin-left:390px;
+  text-align: center;
+   background-image: linear-gradient(to bottom, transparent 0%, transparent 100%);
+
+ }
+ div.sep:hover{
+  border: 3px solid #777;
+ }
+#submit{
+      height:40px;
+      width: 90px;
+  }
+</style>
+
+
+</head>
+<body>
+
+  <form action="Conn_Port.php" method="post">
+
+  <div class="sep" >
+   <h1> ENTER THE DETAILS: </h1>
+   <br><br><pre>
+    <b>Enter the Port ID:</b> <input type="number" min="200" max="299" name="Port_Id" required><br><br>
+<b>Enter the Emp ID:</b> <input type="number" min="100" max="199" name="Emp_Id" required><br><br>
+<b>Enter the Port Name:</b> <input type="text" name="Port_Name" required><br><br>
+<b>Enter the City:</b> <input type="text"  name="City" required><br>
+
+<button type="submit"> Submit </button></pre></div></form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FORM FOR EMPLOYEE</title><style> 
+    form{
+  padding-top:100px;
+  text-align: center;
+  font-size:20px;
+  
+ }
+ 
+body{
+  background-image:url("img7.jpg") ;
+  background-size: cover;
+}
+
+
+ div.sep{
+  float:left;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  
+  border:solid rgba(119, 33, 145, 0.452) round 2px; 
+  margin-left:390px;
+  text-align: center;
+   background-image: linear-gradient(to bottom, transparent 0%, transparent 100%);
+
+ }
+ div.sep:hover{
+  border: 3px solid #777;
+ }
+#submit{
+      height:40px;
+      width: 90px;
+  }
+</style>
+
+
+</style>
+
+
+</head>
+<body>
+
+  <form action="Conn_Emp.php" method="post">
+
+  <div class="sep" >
+   <h1>  ENTER THE DETAILS: </h1>
+   <br><br><pre>
+    <b>Enter the Emp ID: </b><input type="number" min="100" max="199" name="Emp_Id" required><br><br>
+<b>Enter the Emp name:</b> <input type="text" name="Emp_Name" required><br><br>
+<b>Enter the Genre:</b> <input type="text" name="Genre" required><br><br>
+<b>Enter the Age: </b><input type="number"  name="Age" min="20" max="70" required><br><br>
+<b>Enter the Salary: </b><input type="number" min="5000" name="Salary" required><br>
+
+<button type="submit"> Submit </button></pre></div></form>
+</body>
+</html>
